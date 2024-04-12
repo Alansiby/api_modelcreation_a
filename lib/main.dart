@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //import the multiprovider to show the data in homescreen
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(
